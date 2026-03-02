@@ -2,9 +2,7 @@
 
 ## Deterministic Performance Engineering for Real-Time Systems
 
-I build controlled experimental frameworks to isolate CPU/GPU bottlenecks, validate rendering cost under load, and protect deterministic frame budgets in real-time environments.
-
-My work focuses on measurable engineering — not assumptions.
+I design controlled experimental frameworks to isolate CPU/GPU bottlenecks, validate rendering cost under load, and protect deterministic frame budgets in real-time systems.
 
 ---
 
@@ -46,10 +44,10 @@ Performance engineering is not about raising FPS.
 
 It is about:
 
-- Controlling frame budgets in milliseconds
-- Isolating variance sources
-- Removing non-determinism from execution loops
-- Designing systems with safety gates and telemetry visibility
+- Frame budgets defined in milliseconds
+- Variance isolation
+- Non-determinism elimination
+- Telemetry-first system design
 
 Architecture > Optimizations  
 Measurement > Assumptions  
