@@ -1,16 +1,71 @@
-## Hi there 👋
+# James De Raja
 
-<!--
-**JamesDeRaja/JamesDeRaja** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Deterministic Performance Engineering for Real-Time Systems
 
-Here are some ideas to get you started:
+I build controlled experimental frameworks to isolate CPU/GPU bottlenecks, validate rendering cost under load, and protect deterministic frame budgets in real-time environments.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+My work focuses on measurable engineering — not assumptions.
+
+---
+
+## Core Thesis
+
+Real-time performance is not optimized by guesswork.
+
+It is engineered through:
+
+- Deterministic execution models
+- Controlled stress harnesses
+- Reproducible profiling experiments
+- Frame-time variance isolation
+- Systems-level bottleneck diagnosis
+
+Every project below reflects that philosophy.
+
+---
+
+## Flagship Rendering Research
+
+### XR Performance Lab  
+Deterministic XR rendering stress framework for isolating GPU bottlenecks, overdraw amplification, and frame-time instability under controlled load.
+
+🔗 https://github.com/JamesDeRaja/XRPerformanceLab
+
+---
+
+### SoftMaskPro – UI Rendering Cost Study  
+Empirical performance analysis of Unity UI soft masking under layered transparency and controlled overdraw scenarios.
+
+🔗 https://github.com/JamesDeRaja/SoftMaskPro-Performance-Study
+
+---
+
+## Deterministic Engineering Philosophy
+
+Performance engineering is not about raising FPS.
+
+It is about:
+
+- Controlling frame budgets in milliseconds
+- Isolating variance sources
+- Removing non-determinism from execution loops
+- Designing systems with safety gates and telemetry visibility
+
+Architecture > Optimizations  
+Measurement > Assumptions  
+Determinism > Peak numbers  
+
+---
+
+## Systems Architecture Snapshot
+
+![Deterministic Control Loop](./assets/deterministic-control-loop.png)
+
+---
+
+## Portfolio
+
+Full case studies and extended technical breakdowns:
+
+🌐 https://james.alphaden.club
+LinkedIn: https://www.linkedin.com/in/james-de-raja/
