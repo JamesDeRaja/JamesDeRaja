@@ -12,13 +12,27 @@ Real-time performance is not optimized by guesswork.
 
 It is engineered through:
 
-- Deterministic execution models
-- Controlled stress harnesses
-- Reproducible profiling experiments
-- Frame-time variance isolation
-- Systems-level bottleneck diagnosis
+- Deterministic execution models  
+- Controlled stress harnesses  
+- Reproducible profiling experiments  
+- Frame-time variance isolation  
+- Systems-level bottleneck diagnosis  
 
 Every project below reflects that philosophy.
+
+---
+
+## Research Focus
+
+My current work concentrates on:
+
+- XR frame stability under stereo rendering constraints  
+- Overdraw amplification in tile-based GPU architectures  
+- Deterministic frame-budget control under dynamic scene complexity  
+- CPU/GPU bottleneck isolation in real-time pipelines  
+- Telemetry-driven runtime health monitoring  
+
+The objective is not higher peak FPS, but predictable frame delivery under stress.
 
 ---
 
@@ -44,10 +58,10 @@ Performance engineering is not about raising FPS.
 
 It is about:
 
-- Frame budgets defined in milliseconds
-- Variance isolation
-- Non-determinism elimination
-- Telemetry-first system design
+- Frame budgets defined in milliseconds  
+- Variance isolation  
+- Non-determinism elimination  
+- Telemetry-first system design  
 
 Architecture > Optimizations  
 Measurement > Assumptions  
@@ -65,5 +79,5 @@ Determinism > Peak numbers
 
 Full case studies and extended technical breakdowns:
 
-🌐 https://james.alphaden.club
+🌐 https://james.alphaden.club  
 LinkedIn: https://www.linkedin.com/in/james-de-raja/
