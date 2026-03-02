@@ -2,7 +2,7 @@
 
 ## Deterministic Performance Engineering for Real-Time Systems
 
-I design controlled experimental frameworks to isolate CPU/GPU bottlenecks, validate rendering cost under load, and protect deterministic frame budgets in real-time systems.
+I design controlled experimental frameworks to isolate CPU/GPU bottlenecks and protect deterministic frame budgets in real-time systems.
 
 ---
 
@@ -24,7 +24,7 @@ Every project below reflects that philosophy.
 
 ## Flagship Rendering Research
 
-### XR Performance Lab  
+### **XR Performance Lab**
 Deterministic XR rendering stress framework for isolating GPU bottlenecks, overdraw amplification, and frame-time instability under controlled load.
 
 🔗 https://github.com/JamesDeRaja/XRPerformanceLab
