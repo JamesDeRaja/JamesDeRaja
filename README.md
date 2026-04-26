@@ -1,83 +1,131 @@
 # James De Raja
 
-## Deterministic Performance Engineering for Real-Time Systems
+## Senior Real-Time Performance Engineer
 
-I design controlled experimental frameworks to isolate CPU/GPU bottlenecks and protect deterministic frame budgets in real-time systems.
+**Unity • Rendering • Frame Pacing • XR Optimization**
 
----
-
-## Core Thesis
-
-Real-time performance is not optimized by guesswork.
-
-It is engineered through:
-
-- Deterministic execution models  
-- Controlled stress harnesses  
-- Reproducible profiling experiments  
-- Frame-time variance isolation  
-- Systems-level bottleneck diagnosis  
-
-Every project below reflects that philosophy.
+I build **deterministic performance systems** for real-time applications — focusing on stable frame delivery, GPU/CPU bottleneck isolation, and reproducible profiling workflows.
 
 ---
 
-## Research Focus
+## What I Do
 
-My current work concentrates on:
+* Diagnose **CPU vs GPU bottlenecks** using profiler-backed experiments
+* Design **controlled stress environments** to reproduce performance issues
+* Optimize **rendering pipelines** for mobile and XR constraints
+* Maintain **stable frame budgets (11ms / 16.6ms)** under load
+* Build **telemetry-driven systems** to monitor runtime health
 
-- XR frame stability under stereo rendering constraints  
-- Overdraw amplification in tile-based GPU architectures  
-- Deterministic frame-budget control under dynamic scene complexity  
-- CPU/GPU bottleneck isolation in real-time pipelines  
-- Telemetry-driven runtime health monitoring  
-
-The objective is not higher peak FPS, but predictable frame delivery under stress.
-
----
-
-## Flagship Rendering Research
-
-### **XR Performance Lab**
-Deterministic XR rendering stress framework for isolating GPU bottlenecks, overdraw amplification, and frame-time instability under controlled load.
-
-🔗 https://github.com/JamesDeRaja/XRPerformanceLab
+The goal is simple:
+**consistent frame delivery under real-world stress — not just high FPS in ideal conditions.**
 
 ---
 
-### SoftMaskPro – UI Rendering Cost Study  
-Empirical performance analysis of Unity UI soft masking under layered transparency and controlled overdraw scenarios.
+## Core Approach
 
-🔗 https://github.com/JamesDeRaja/SoftMaskPro-Performance-Study
+Performance problems are not random.
+They are measurable, reproducible, and isolatable.
 
----
+My workflow:
 
-## Deterministic Engineering Philosophy
+* Establish baseline → apply controlled stress → measure delta
+* Separate CPU vs GPU cost using profiler evidence
+* Eliminate variance before applying optimizations
+* Validate improvements with repeatable scenarios
 
-Performance engineering is not about raising FPS.
-
-It is about:
-
-- Frame budgets defined in milliseconds  
-- Variance isolation  
-- Non-determinism elimination  
-- Telemetry-first system design  
-
-Architecture > Optimizations  
-Measurement > Assumptions  
-Determinism > Peak numbers  
+**If it cannot be reproduced, it cannot be fixed reliably.**
 
 ---
 
-## Systems Architecture Snapshot
+## Featured Work
 
-![Deterministic Control Loop](./assets/deterministic-control-loop.png)
+### XR Performance Lab
+
+Deterministic stress framework for analyzing rendering cost in XR.
+
+Focus areas:
+
+* Stereo rendering overhead
+* Overdraw amplification (200+ transparent layers)
+* MSAA cost scaling
+* Fragment workload vs submission cost
+
+Key finding:
+
+* Single rendering factor produced **+7ms GPU cost under stereo load** while CPU remained stable → clear GPU-bound scenario
+
+🔗 [https://github.com/JamesDeRaja/XRPerformanceLab](https://github.com/JamesDeRaja/XRPerformanceLab)
 
 ---
 
-## Portfolio
+### SoftMaskPro – UI Rendering Study
 
-Full case studies and extended technical breakdowns:
+Performance breakdown of Unity UI masking under layered transparency.
 
-🌐 https://james.alphaden.club  
-LinkedIn: https://www.linkedin.com/in/james-de-raja/
+Focus areas:
+
+* Mask pass cost in UI pipelines
+* Overdraw amplification in stacked elements
+* Canvas rebuild CPU impact
+* Tradeoffs between visual fidelity and performance
+
+Result:
+
+* Clear identification of **GPU-heavy UI scenarios caused by layered transparency and masking**
+
+🔗 [https://github.com/JamesDeRaja/SoftMaskPro-Performance-Study](https://github.com/JamesDeRaja/SoftMaskPro-Performance-Study)
+
+---
+
+### ECS Performance Improvement Study
+
+Comparison of update architectures under scale.
+
+Variants:
+
+* A — Per-object Update (baseline)
+* B — Prefab-based Update
+* C — Central Manager
+* D — ECS (DOTS + Burst)
+
+Focus areas:
+
+* CPU scaling to 10,000+ entities
+* GC elimination
+* Update cost distribution
+* Deterministic simulation control
+
+Outcome:
+
+* Measurable reduction in CPU overhead and improved scalability with ECS-based systems
+
+🔗 [https://github.com/JamesDeRaja/ECS-Performance-Improvement](https://github.com/JamesDeRaja/ECS-Performance-Improvement)
+
+---
+
+## Engineering Philosophy
+
+Performance is a systems problem.
+
+* Define budgets in milliseconds, not FPS
+* Measure before optimizing
+* Remove non-determinism
+* Validate under stress, not ideal conditions
+
+**Architecture drives performance more than micro-optimizations.**
+
+---
+
+## Experience Snapshot
+
+* 13+ years in real-time systems and Unity development
+* Worked with publishers: Voodoo, Lion Studios, Supersonic
+* Built and optimized systems for **hundreds of live game features**
+* Improved retention and performance metrics through optimization-driven design
+
+---
+
+## Portfolio & Contact
+
+🌐 [https://james.alphaden.club](https://james.alphaden.club)
+🔗 [https://www.linkedin.com/in/james-de-raja/](https://www.linkedin.com/in/james-de-raja/)
